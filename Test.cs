@@ -93,8 +93,15 @@ class Program
                          else if (guessChoice == "L" || guessChoice == "l")
                          {
                               Guessing.GetValidLetter();
+                              //  _____ _____ ____ _____ ___ _   _  ____    _    ____  ____      _ __   __
+          //NEXT HERE         // |_   _| ____/ ___|_   _|_ _| \ | |/ ___|  / \  |  _ \|  _ \    / \\ \ / /
+          //ADD LOGIC         //   | | |  _| \___ \ | |  | ||  \| | |  _  / _ \ | |_) | |_) |  / _ \\ V / 
+                              //   | | | |___ ___) || |  | || |\  | |_| |/ ___ \|  _ <|  _ <  / ___ \| |  
+                              //   |_| |_____|____/ |_| |___|_| \_|\____/_/   \_\_| \_\_| \_\/_/   \_\_|  
+                              // ADD LOGIC FOR ARRAY COMPARISON vHERE
                          }
 
+                         // GAME IS FINISHED, MENU OR QUIT CHOICE
                          Console.WriteLine($"You have run out of attempts.");
                          Console.WriteLine();
                          Console.WriteLine($"Enter 'q' if you want to quit the game.");
