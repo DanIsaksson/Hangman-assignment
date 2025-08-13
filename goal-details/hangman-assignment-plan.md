@@ -14,6 +14,7 @@ This plan breaks down the Hangman assignment into logical steps. Follow this gui
 
 ## 2. The Main Game Loop
 - The core of your game will run inside a `while` loop.
+- Guiding principle: one letter input per turn, then check that one letter against all positions in the secret word.
 - **Action:**
     1.  Create a `while` loop that continues as long as `guessesLeft > 0` and the word has not been fully guessed.
     2.  Inside the loop, you will perform all the steps below (display, input, processing).

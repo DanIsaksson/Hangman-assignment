@@ -6,7 +6,17 @@ This document outlines the key C# concepts from your Week 7 lecture that are ess
 *   **Variables:** You will need variables to store the state of your game.
     *   `string secretWord`: To hold the word the player needs to guess.
     *   `int guessesLeft = 10;`: To track the number of remaining guesses.
+    *   `int remainingLetters`: To track unfilled positions in the word.
     *   `bool hasWon = false;`: A flag to know when the game loop should end.
+
+### **Compound Assignment Operators** *(Recently Learned)*
+*   **`-= 1` vs. `= variable - 1`:** These are equivalent! 
+    ```csharp
+    remainingLetters -= 1;      // Shorthand (preferred)
+    remainingLetters = remainingLetters - 1;  // Expanded form
+    ```
+*   **Other compound operators:** `+=`, `*=`, `/=`, `%=`
+*   **Why use compound operators:** More concise, efficient, and commonly used in professional code.
 
 ### **Data Structures (Arrays and Lists)**
 Your lecture materials covered Arrays and Lists, which are both critical for this assignment.
